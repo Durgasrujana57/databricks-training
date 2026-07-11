@@ -90,11 +90,7 @@ Contains sales transaction details.
 | Task | Description |
 |------|-------------|
 | ✅ Task 1 | Calculate total order amount for each customer |
-<<<<<<< HEAD
 | ✅ Task 2 | Find the Top 3 customers by total spending |
-=======
-| ✅ Task 2 | Find the top 3 customers by total spending |
->>>>>>> 9fa9767732ebe5bb81142f5a155e3b08bd841388
 | ✅ Task 3 | Identify customers with no orders |
 | ✅ Task 4 | Calculate city-wise total revenue |
 | ✅ Task 5 | Compute average order amount per customer |
@@ -131,11 +127,7 @@ Generate Business Insights
 git clone https://github.com/your-username/Week4.git
 ```
 
-<<<<<<< HEAD
-### Navigate to the Project
-=======
 ### Navigate to Phase 2
->>>>>>> 9fa9767732ebe5bb81142f5a155e3b08bd841388
 
 ```bash
 cd phase-2
@@ -175,7 +167,6 @@ The `screenshots/` folder contains outputs for all analytical tasks.
 
 Through this project, I gained hands-on experience with:
 
-<<<<<<< HEAD
 - 📌 SQL Aggregations
 - 📌 GROUP BY & HAVING
 - 📌 JOIN Operations
@@ -185,17 +176,6 @@ Through this project, I gained hands-on experience with:
 - 📌 Data Cleaning & Type Casting
 - 📌 ETL Pipeline Development
 - 📌 Business Data Analysis
-=======
-- SQL Aggregations
-- GROUP BY & HAVING
-- JOIN Operations
-- Sorting & Ranking
-- Spark DataFrame API
-- SQL to PySpark Translation
-- Data Cleaning & Type Casting
-- ETL Pipeline Development
-- Business Data Analysis
->>>>>>> 9fa9767732ebe5bb81142f5a155e3b08bd841388
 
 ---
 
