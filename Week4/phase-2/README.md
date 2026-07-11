@@ -1,4 +1,4 @@
-Phase 2 – SQL & PySpark Data Analysis
+# Phase 2 – SQL & PySpark Data Analysis
 
 <div align="center">
 
