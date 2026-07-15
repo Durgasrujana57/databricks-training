@@ -1,6 +1,75 @@
 # 📘 SQL Practice Questions
 
-A collection of SQL practice questions covering fundamental SQL concepts using an Employee dataset for hands-on learning and interview preparation.
+A collection of **55 SQL practice questions** covering fundamental SQL concepts using an **Employee Management** dataset. This project is designed for beginners, students, and interview preparation.
+
+---
+
+## 🎯 Objective
+
+The objective of this project is to strengthen SQL fundamentals by practicing commonly used SQL statements and clauses on a sample employee database.
+
+---
+
+## 📂 Project Structure
+
+```
+14-july-2026/
+│── README.md          # Project documentation
+│── schemas.sql        # Employee table creation and sample data
+│── queries.sql        # SQL practice queries
+│── output.txt         # Query execution outputs
+```
+
+---
+
+## 🗃️ Database Schema
+
+**Table:** `Employees`
+
+| Column | Data Type |
+|----------|-----------|
+| emp_id | INT |
+| emp_name | VARCHAR(50) |
+| department | VARCHAR(50) |
+| salary | INT |
+| city | VARCHAR(50) |
+| experience | INT |
+
+---
+
+## 📚 SQL Topics Covered
+
+- ✅ SELECT Statement
+- ✅ WHERE Clause
+- ✅ GROUP BY
+- ✅ HAVING Clause
+- ✅ ORDER BY & LIMIT (TOP)
+- ✅ DISTINCT
+- ✅ Comparison Operators
+- ✅ Logical Operators (AND, OR, NOT)
+- ✅ IN & NOT IN
+- ✅ BETWEEN
+- ✅ LIKE Operator
+
+---
+
+## 📋 Query Categories
+
+| Category | Questions |
+|-----------|----------:|
+| SELECT | 5 |
+| WHERE | 5 |
+| GROUP BY | 5 |
+| HAVING | 5 |
+| ORDER BY & LIMIT | 5 |
+| DISTINCT | 5 |
+| Comparison Operators | 5 |
+| Logical Operators | 5 |
+| IN & NOT IN | 5 |
+| BETWEEN | 5 |
+| LIKE Operator | 5 |
+
+**📌 Total SQL Practice Questions:** **55**
 
 ---
 
@@ -20,20 +89,35 @@ A collection of SQL practice questions covering fundamental SQL concepts using a
 
 ---
 
-## 📁 Project Files
+## 🚀 How to Run
 
-- 📄 `employees_table.sql` – Table creation and sample data
-- 📄 `sql_practice_queries.sql` – SQL practice queries
-- 📄 `query_outputs.txt` – Query execution results
-- 📄 `README.md` – Project documentation
+1. Execute `schemas.sql` to create the Employee table.
+2. Insert the sample employee records.
+3. Open `queries.sql`.
+4. Execute the SQL queries.
+5. Compare the results with `output.txt`.
 
 ---
 
 ## 🛠️ Tools Used
 
-- MySQL / DB Fiddle
 - SQL
-- Git & GitHub
+- MySQL / DB Fiddle
+- Git
+- GitHub
+
+---
+
+## 💡 Skills Practiced
+
+- Data Retrieval
+- Data Filtering
+- Aggregate Functions
+- Grouping Data
+- Sorting Records
+- Pattern Matching
+- Conditional Queries
+- SQL Operators
 
 ---
 
@@ -42,32 +126,55 @@ A collection of SQL practice questions covering fundamental SQL concepts using a
 - Retrieving data using **SELECT**
 - Filtering records with **WHERE**
 - Using aggregate functions (**SUM, AVG, MAX, MIN, COUNT**)
-- Grouping data with **GROUP BY**
+- Grouping data using **GROUP BY**
 - Filtering grouped data using **HAVING**
-- Sorting and limiting records with **ORDER BY** and **LIMIT**
+- Sorting data using **ORDER BY**
+- Retrieving top records using **LIMIT**
 - Removing duplicate values using **DISTINCT**
-- Working with comparison and logical operators
-- Applying **IN**, **NOT IN**, and **BETWEEN**
+- Applying comparison and logical operators
+- Using **IN**, **NOT IN**, and **BETWEEN**
 - Performing pattern matching using **LIKE**
 
 ---
 
-## 📊 Topics Covered
+## 📊 Project Statistics
 
-- SELECT
-- WHERE
-- GROUP BY
-- HAVING
-- ORDER BY & LIMIT
-- DISTINCT
-- Comparison Operators
-- Logical Operators
-- IN & NOT IN
-- BETWEEN
-- LIKE
+| Metric | Count |
+|---------|------:|
+| SQL Topics Covered | 11 |
+| Practice Questions | 55 |
+| Employee Records | 15 |
+| Departments | 4 |
+| Cities | 5 |
 
 ---
 
-## 🎯 Outcome
+## 🎓 Suitable For
 
-Successfully completed **55 SQL practice queries** using an Employee dataset to strengthen SQL fundamentals, improve query-writing skills, and gain hands-on experience with essential SQL concepts.
+- SQL Beginners
+- College Students
+- Placement Preparation
+- Data Analyst Aspirants
+- Database Management Practice
+
+---
+
+## 📈 Outcome
+
+Successfully completed **55 SQL practice questions** using an Employee dataset to strengthen SQL fundamentals, improve query-writing skills, and gain hands-on experience with essential SQL concepts.
+
+---
+
+## 📌 Future Enhancements
+
+- JOIN Queries
+- Subqueries
+- Window Functions
+- Common Table Expressions (CTEs)
+- Views
+- Stored Procedures
+- Triggers
+
+---
+
+⭐ **If you found this repository helpful, consider giving it a Star!**
