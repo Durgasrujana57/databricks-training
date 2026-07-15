@@ -176,5 +176,3 @@ Successfully completed **55 SQL practice questions** using an Employee dataset t
 - Triggers
 
 ---
-
-⭐ **If you found this repository helpful, consider giving it a Star!**
