@@ -1,15 +1,8 @@
-# SQL JOIN Practice – Basic, Intermediate, Advanced & Expert
+# SQL JOIN Practice – Advanced & Expert Level Challenges
 
 ## 📌 Project Overview
 
-This project demonstrates SQL JOIN operations using four related tables:
-
-- Departments
-- Employees
-- Projects
-- EmployeeProjects
-
-The project covers SQL JOIN concepts from beginner to expert level, including INNER JOIN, LEFT JOIN, RIGHT JOIN, FULL JOIN, Anti Joins, and complex reporting queries.
+This project focuses on advanced SQL JOIN concepts and expert-level SQL challenges using multiple related tables. It demonstrates complex joins, anti joins, self joins, aggregate functions, subqueries, and reporting queries commonly asked in technical interviews.
 
 ---
 
@@ -35,89 +28,57 @@ SQL-Join-Practice/
 
 ---
 
+## 📄 Files Description
+
+### 📌 schema.sql
+Contains:
+- Database creation
+- Table creation
+- Sample data insertion
+
+### 📌 queries.sql
+Contains:
+- Advanced SQL JOIN Queries
+- LEFT ANTI JOIN Queries
+- RIGHT ANTI JOIN Queries
+- FULL ANTI JOIN Queries
+- Expert Level SQL Challenges
+
+### 📌 outputs.md
+Contains the output of every SQL query.
+
+---
+
 ## 📚 Topics Covered
 
-### Basic JOIN Queries
+### ✅ Advanced SQL JOINs
+- Highest-paid employee in every department
+- Department with highest average salary
+- Employee working on the highest-budget project
+- Manager and employee relationships
+- Employees working on multiple projects
+- Employees without projects
+- Departments without projects
+- Project count reports
+- Employee count reports
 
-- INNER JOIN
-- LEFT JOIN
-- RIGHT JOIN
-- FULL JOIN
-
-Total Queries: **20**
-
----
-
-### Intermediate JOIN Queries
-
-- INNER JOIN
-- LEFT JOIN
-- RIGHT JOIN
-- FULL JOIN
-
-Total Queries: **20**
-
----
-
-### Advanced JOIN Queries
-
-- INNER JOIN
-- LEFT JOIN
-- RIGHT JOIN
+### ✅ SQL Anti Joins
 - LEFT ANTI JOIN
 - RIGHT ANTI JOIN
 - FULL ANTI JOIN
+- Finding unmatched employees, departments, and projects
 
-Total Queries: **30**
-
----
-
-### Expert Level Challenges
-
-- Highest Paid Employee
-- Highest Average Salary Department
-- Highest Budget Project
-- Manager & Employee Report
-- Employees with Multiple Projects
-- Employees Without Projects
-- Departments Without Projects
-- Project Count Reports
-- Shared Managers
-- Employees Hired Before Managers
-- Complete Employee Report
-
-Total Queries: **10**
-
----
-
-## 📁 Files Description
-
-### schema.sql
-
-Contains:
-
-- CREATE TABLE statements
-- INSERT INTO statements
-- Sample data for all tables
-
----
-
-### queries.sql
-
-Contains all SQL queries from:
-
-- Basic
-- Intermediate
-- Advanced
-- Expert Level
-
-Total Queries: **80**
-
----
-
-### outputs.md
-
-Contains the execution result of every query in table format.
+### ✅ Expert Level Challenges
+- Department with the highest project budget
+- Employees working in departments without projects
+- Projects having multiple employees
+- Employees assigned to projects outside their department
+- Departments where every employee is assigned to a project
+- Employees sharing the same manager
+- Departments with no managers
+- Managers with more than three employees
+- Employees hired before their managers
+- Complete employee report using multiple joins
 
 ---
 
@@ -126,50 +87,41 @@ Contains the execution result of every query in table format.
 - INNER JOIN
 - LEFT JOIN
 - RIGHT JOIN
-- FULL JOIN (using UNION where required)
+- FULL JOIN
+- SELF JOIN
 - LEFT ANTI JOIN
 - RIGHT ANTI JOIN
 - FULL ANTI JOIN
-- Self JOIN
-- Aggregate Functions
 - GROUP BY
 - HAVING
 - ORDER BY
-- COUNT()
-- AVG()
-- MAX()
-- MIN()
+- Aggregate Functions
 - Subqueries
 - UNION
+- NULL Handling
 
 ---
 
-## 💻 Software Used
+## 💻 Tools Used
 
 - MySQL
 - DB Fiddle
-- VS Code
+- Visual Studio Code (VS Code)
 
 ---
 
 ## 🎯 Learning Outcomes
 
-After completing this project, you will understand how to:
+After completing this project, you will be able to:
 
-- Retrieve data using different JOIN types.
-- Work with one-to-many and many-to-many relationships.
-- Handle NULL values in joins.
-- Identify unmatched records using Anti Joins.
-- Generate reports using multiple table joins.
-- Use aggregate functions with JOINs.
-- Solve real-world SQL interview questions.
+- Write advanced SQL JOIN queries.
+- Solve interview-level SQL problems.
+- Work with Anti Joins and Self Joins.
+- Generate reports using multiple tables.
+- Analyze relational data using aggregate functions and subqueries.
 
 ---
 
-## 👩‍💻 Author
 
-**CHINTAKULA DURGA SRUJANA**
 
-B.Tech – Computer Science and Engineering
-
-SQL JOIN Practice Project
+SQL JOIN Practice – Advanced & Expert Level Challenges
