@@ -309,3 +309,239 @@
 | Operations     | Automation       |
 | NULL           | AI Chatbot       |
 
+
+```markdown
+# Intermediate SQL JOIN Outputs
+
+## Q21 Output
+
+| EmployeeName | DepartmentName |
+|--------------|----------------|
+| David | IT |
+| Sophia | IT |
+
+---
+
+## Q22 Output
+
+| EmployeeName | ProjectName | Budget |
+|--------------|-------------|---------:|
+| David | ERP Upgrade | 500000.0 |
+| Sophia | ERP Upgrade | 500000.0 |
+| David | AI Chatbot | 300000.0 |
+| William | AI Chatbot | 300000.0 |
+
+---
+
+## Q23 Output
+
+| EmployeeName | DepartmentName | ProjectName |
+|--------------|----------------|-------------|
+| John | HR | Payroll System |
+| Emma | Finance | Audit System |
+| David | IT | ERP Upgrade |
+| Sophia | IT | ERP Upgrade |
+| Michael | Sales | Sales Dashboard |
+| James | Marketing | Website Redesign |
+| Isabella | Sales | Sales Dashboard |
+| David | IT | AI Chatbot |
+
+---
+
+## Q24 Output
+
+| DepartmentName | TotalEmployees |
+|----------------|---------------:|
+| HR | 1 |
+| Finance | 1 |
+| IT | 2 |
+| Sales | 2 |
+| Marketing | 1 |
+
+---
+
+## Q25 Output
+
+| DepartmentName | AverageSalary |
+|----------------|--------------:|
+| HR | 50000.0 |
+| Finance | 65000.0 |
+| IT | 71000.0 |
+| Sales | 61500.0 |
+| Marketing | 60000.0 |
+
+---
+
+## Q26 Output
+
+| EmployeeID | EmployeeName |
+|-----------:|--------------|
+| 106 | Olivia |
+| 108 | William |
+| 109 | Ava |
+
+---
+
+## Q27 Output
+
+| EmployeeID | EmployeeName |
+|-----------:|--------------|
+| 106 | Olivia |
+
+---
+
+## Q28 Output
+
+| DepartmentID | DepartmentName |
+|-------------:|----------------|
+| 6 | Operations |
+
+---
+
+## Q29 Output
+
+| ProjectID | ProjectName |
+|----------:|-------------|
+| 207 | AI Chatbot |
+
+---
+
+## Q30 Output
+
+| DepartmentName | TotalEmployees |
+|----------------|---------------:|
+| HR | 1 |
+| Finance | 1 |
+| IT | 2 |
+| Marketing | 1 |
+| Sales | 2 |
+| Operations | 0 |
+
+---
+
+## Q31 Output
+
+| DepartmentID | DepartmentName |
+|-------------:|----------------|
+| 6 | Operations |
+
+---
+
+## Q32 Output
+
+| ProjectID | ProjectName |
+|----------:|-------------|
+| 206 | Automation |
+
+---
+
+## Q33 Output
+
+| DepartmentName | ProjectName |
+|----------------|-------------|
+| HR | Payroll System |
+| Finance | Audit System |
+| IT | ERP Upgrade |
+| Marketing | Website Redesign |
+| Sales | Sales Dashboard |
+| Operations | Automation |
+
+---
+
+## Q34 Output
+
+| DepartmentName | TotalEmployees |
+|----------------|---------------:|
+| HR | 1 |
+| Finance | 1 |
+| IT | 2 |
+| Marketing | 1 |
+| Sales | 2 |
+| Operations | 0 |
+
+---
+
+## Q35 Output
+
+| ProjectName | EmployeeName |
+|-------------|--------------|
+| Payroll System | John |
+| Audit System | Ava |
+| Audit System | Emma |
+| Website Redesign | James |
+| ERP Upgrade | Sophia |
+| ERP Upgrade | David |
+| Sales Dashboard | Isabella |
+| Sales Dashboard | Michael |
+| Automation | NULL |
+| AI Chatbot | William |
+| AI Chatbot | David |
+
+---
+
+## Q36 Output
+
+| DepartmentName | EmployeeName |
+|----------------|--------------|
+| HR | John |
+| Finance | Emma |
+| IT | Sophia |
+| IT | David |
+| Marketing | James |
+| Sales | Isabella |
+| Sales | Michael |
+| Operations | NULL |
+| NULL | Olivia |
+| NULL | William |
+| NULL | Ava |
+
+---
+
+## Q37 Output
+
+| EmployeeName |
+|--------------|
+| Olivia |
+| William |
+| Ava |
+
+---
+
+## Q38 Output
+
+| DepartmentName |
+|----------------|
+| Operations |
+
+---
+
+## Q39 Output
+
+| EmployeeName | DepartmentName |
+|--------------|----------------|
+| John | HR |
+| Emma | Finance |
+| David | IT |
+| Sophia | IT |
+| Michael | Sales |
+| Olivia | NULL |
+| James | Marketing |
+| William | NULL |
+| Ava | NULL |
+| Isabella | Sales |
+| NULL | Operations |
+
+---
+
+## Q40 Output
+
+| DepartmentName | ProjectName |
+|----------------|-------------|
+| HR | Payroll System |
+| Finance | Audit System |
+| IT | ERP Upgrade |
+| Marketing | Website Redesign |
+| Sales | Sales Dashboard |
+| Operations | Automation |
+| NULL | AI Chatbot |
+```
